@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script src="./index.js"></script>
+		<title>Document</title>
+		<style>
+			.cb {
+				background-color: #242936;
+				padding: 1rem;
+				padding-top: 0;
+				height: min-content;
+				width: clamp(200px, 50vw, 500px);
+				margin: 0 23vw;
+				border-radius: 0.3rem;
+				font-family: "Consolas", monospace;
+        color: hsl(42, 61%, 90%);
+			}
+			.cb *::selection {
+				background: hsl(212, 44%, 29%);
+				border: 1px solid transparent;
+				border-radius: 1rem;
+			}
+
+			.cb .lang {
+        font-family: "Consolas", monospace;
+				font-size: 0.9rem;
+				color: hsl(20, 20%, 80%);
+        font-style: italic;
+        font-weight: bold;
+        padding: .1rem 0;
+        padding-bottom: .5rem;
+        opacity: 0.8;
+        user-select: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="cb">
+			<code-block lang="js"> 
+        var im goom; 
+        variable 
+      </code-block>
+		</div>
+	</body>
+</html>
